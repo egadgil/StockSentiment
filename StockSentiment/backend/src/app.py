@@ -11,18 +11,18 @@ CORS(app)
 # Initialize DynamoDB
 dynamodb = boto3.resource(
     'dynamodb',
-    aws_access_key_id='AKIA3ISBVMOWZ56KRNNA',
-    aws_secret_access_key='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',
+    aws_access_key_id='',
+    aws_secret_access_key='',
     region_name='us-west-1'
 )
 
 news_table = dynamodb.Table('StockMarket1')
 
 # News API Key (Replace with your NewsAPI key)
-NEWS_API_KEY = '2f7a93ae1c644a70af94112919c4501d'
+NEWS_API_KEY = ''
 
 # OpenAI API Key (Replace with your OpenAI API Key)
-OPENAI_API_KEY = 'sk-rFMkMw7GdbauVF9vdR_ma2Dl9oGMtcQ8jFLrw2s00vT3BlbkFJCWXbuwdUDstU3z6EAHiIU6mhRGaTpWsbupd_PpkzUA'
+OPENAI_API_KEY = ''
 
 
 # Fetch stock news from News API based on the stock symbol
