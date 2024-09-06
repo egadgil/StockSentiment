@@ -16,8 +16,8 @@ public class CreateTable {
 
     public static void main(String[] args) {
         // Replace with your actual AWS Access Key ID and Secret Access Key
-        String awsAccessKeyId = "AKIA3ISBVMOWZ56KRNNA";
-        String awsSecretAccessKey = "AOgfL51fw5eNWPJUhG3buKgDr5wEXXyRbg2oNfYu";
+        String awsAccessKeyId = "";
+        String awsSecretAccessKey = "";
 
         // Replace with your desired AWS region (e.g., US_WEST_1, US_EAST_1, etc.)
         Region region = Region.US_WEST_1;
